@@ -23,7 +23,6 @@ export function HeroSection() {
     "Socket.IO",
     "PostgreSQL",
     "MySQL",
-    
   ];
 
   return (
@@ -83,13 +82,9 @@ export function HeroSection() {
                 transition={{ delay: 0.5 }}
                 className="text-md text-muted-foreground leading-relaxed max-w-2xl"
               >
-                Passionate and detail-oriented Software Engineer with a strong
-                foundation in web development, data structures, and modern
-                software practices. Eager to contribute to a dynamic team where
-                I can apply my technical skills, learn continuously, and build
-                scalable solutions that solve real-world problems. Committed to
-                delivering clean, efficient, and maintainable code while growing
-                as a professional in a collaborative environment..
+              I can build Software Applications that work well and grow easily. <br/>
+              Good at writing clean code and solving real problems with smart ideas.<br/>
+              Always learning new things and creating better solutions.
               </motion.p>
             </div>
 
@@ -161,7 +156,7 @@ export function HeroSection() {
                   <div className="flex items-center space-x-2">
                     <Code2 className="w-4 h-4 text-primary" />
                     <span className="text-muted-foreground">
-                      console.log("Hello World!")
+                      console.log("Sufyan Ahmed!")
                     </span>
                   </div>
                 </div>

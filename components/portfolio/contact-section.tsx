@@ -14,21 +14,21 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "sufyan.ahmed@example.com",
-      href: "mailto:sufyan.ahmed@example.com",
+      value: "sufyanahmedansare@gmail.com",
+      href: "mailto:sufyanahmedansare@gmail.com",
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+92 300 1234567",
-      href: "tel:+923001234567",
+      value: "+92 311 2991881",
+      href: "tel:+923112991881",
       color: "from-green-500 to-emerald-500",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Karachi, Pakistan",
+      value: "North Nazimabad,Block L,Karachi, Pakistan",
       href: "#",
       color: "from-purple-500 to-pink-500",
     },
@@ -38,26 +38,14 @@ export function ContactSection() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/sufyanahmed",
+      href: "https://github.com/ahmed1Sufyan",
       color: "hover:text-gray-600",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/sufyanahmed",
+      href: "https://www.linkedin.com/in/sufyan-ahmed-41398a249/",
       color: "hover:text-blue-600",
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com/sufyanahmed",
-      color: "hover:text-blue-400",
-    },
-    {
-      icon: Youtube,
-      label: "YouTube",
-      href: "https://youtube.com/@sufyanahmed",
-      color: "hover:text-red-600",
     },
   ]
 
@@ -185,14 +173,14 @@ export function ContactSection() {
             </div>
 
             {/* Availability */}
-            <Card className="p-6 glass-effect neomorphism">
+            {/* <Card className="p-6 glass-effect neomorphism">
               <h4 className="text-lg font-bold font-poppins mb-3">Current Status</h4>
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                 <span className="text-muted-foreground">Available for new projects</span>
               </div>
               <p className="text-sm text-muted-foreground mt-2">I typically respond within 24 hours</p>
-            </Card>
+            </Card> */}
           </motion.div>
         </div>
       </div>

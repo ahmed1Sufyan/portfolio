@@ -63,13 +63,8 @@ export function PortfolioLayout({ children }: PortfolioLayoutProps) {
     { icon: Github, href: "https://github.com/ahmed1Sufyan", label: "GitHub" },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/sufyanahmed",
+      href: "https://www.linkedin.com/in/sufyan-ahmed-41398a249/",
       label: "LinkedIn",
-    },
-    {
-      icon: Twitter,
-      href: "https://twitter.com/sufyanahmed",
-      label: "Twitter",
     },
   ];
 
