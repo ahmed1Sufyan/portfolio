@@ -196,7 +196,7 @@ export function AboutSection() {
             <Card className="p-6 glass-effect bg-white/10 border border-white/20 backdrop-blur-md shadow-lg rounded-2xl">
               <div className="aspect-square rounded-2xl overflow-hidden flex items-center justify-center bg-gradient-to-br from-primary/20 to-blue-500/20">
                 <img
-                  src="/pic.Jpg"
+                  src="/mypic2.jpg"
                   alt="Sufyan Ahmed - About"
                   className="w-full h-full object-full rounded-2xl"
                 />

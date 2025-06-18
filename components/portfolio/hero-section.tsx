@@ -142,10 +142,10 @@ export function HeroSection() {
           >
             <div className="relative w-full max-w-md mx-auto">
               {/* Main image container */}
-              <div className="relative clean-card p-8">
+              <div className="relative clean-card p-6">
                 <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-primary/10 to-blue-500/10 flex items-center justify-center overflow-hidden">
                   <img
-                    src="/pic.JPG?height=400&width=400"
+                    src="/mypic.jpg"
                     alt="Sufyan Ahmed"
                     className="w-full h-full object-fill rounded-2xl"
                   />

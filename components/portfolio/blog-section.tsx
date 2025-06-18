@@ -23,7 +23,7 @@ export function BlogSection() {
       category: "Tutorial",
     },
     {
-      id: 2,
+      id: 2,  
       title: "Optimizing Database Queries in PostgreSQL",
       excerpt: "Best practices and techniques for improving database performance and query optimization.",
       content: "Database optimization is crucial for application performance...",
