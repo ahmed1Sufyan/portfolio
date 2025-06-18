@@ -69,13 +69,13 @@ export function PortfolioLayout({ children }: PortfolioLayoutProps) {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className=" bg-background w-fit ">
       {/* Header */}
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b",
+          "fixed top-0  left-0 right-0 z-50 transition-all duration-300 border-b",
           isScrolled
             ? "bg-background/80 backdrop-blur-md border-border shadow-clean"
             : "bg-transparent border-transparent"
@@ -173,7 +173,7 @@ export function PortfolioLayout({ children }: PortfolioLayoutProps) {
       </motion.header>
 
       {/* Main Content */}
-      <main className="pt-16 mx-16">{children}</main>
+      <main className=" w-[98%] pt-16 mx-auto ">{children}</main>
 
       {/* Social Links - Fixed */}
       <div className="fixed left-6 top-1/2 -translate-y-1/2 z-40 hidden lg:block">
